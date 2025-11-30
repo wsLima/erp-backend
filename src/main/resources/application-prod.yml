@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://${DB_HOST:postgres}:${DB_PORT:5432}/${DB_NAME:erp_db}
+    username: ${DB_USER:erp}
+    password: ${DB_PASSWORD:erp}
+
+logging:
+  level:
+    root: INFO
